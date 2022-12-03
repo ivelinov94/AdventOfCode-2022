@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed2fcf1-c35e-4dc8-ba06-79921db98f53" name="Changes" comment="Advent of Code - Day2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7ed2fcf1-c35e-4dc8-ba06-79921db98f53" name="Changes" comment="Advent of Code - Day3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/ActionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/UnknownTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day3/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wankish/day1/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -50,21 +53,25 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/developsoft/Documents/java/AdventOfCode/src/main/resources/static",
+    "last_opened_file_path": "C:/Users/developsoft/Documents/java/AdventOfCode/src/main/java/com/wankish/day3",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wankish.day2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\developsoft\Documents\java\AdventOfCode\src\main\java\com\wankish\day3" />
       <recent name="C:\Users\developsoft\Documents\java\AdventOfCode\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\developsoft\Documents\java\AdventOfCode\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.wankish.day2.Main">
+  <component name="RunManager" selected="Application.com.wankish.day3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wankish.day1.Main" />
       <module name="advent-of-code" />
@@ -91,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.wankish.day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wankish.day3.Main" />
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wankish.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="AdventOfCode" />
       <method v="2">
@@ -99,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.wankish.day3.Main" />
         <item itemvalue="Application.com.wankish.day2.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -115,7 +136,7 @@
       <workItem from="1669969289831" duration="2078000" />
       <workItem from="1669974662955" duration="5218000" />
       <workItem from="1669980939288" duration="4435000" />
-      <workItem from="1669992253914" duration="6621000" />
+      <workItem from="1669992253914" duration="11636000" />
     </task>
     <task id="LOCAL-00001" summary="Advent of Code - Day1">
       <created>1669985935968</created>
@@ -124,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669985935968</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Advent of Code - Day2">
+      <created>1669998963800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669998963800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Advent of Code - Day1" />
     <MESSAGE value="Advent of Code - Day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day2" />
+    <MESSAGE value="Advent of Code - Day3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advent of Code - Day3" />
   </component>
 </project>

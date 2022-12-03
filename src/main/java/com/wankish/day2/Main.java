@@ -6,18 +6,6 @@ import com.wankish.utils.Logger;
 import java.net.URISyntaxException;
 import java.util.List;
 
-enum ActionState {
-    WIN,
-    LOSE,
-    DRAW
-}
-
-enum Types {
-    ROCK,
-    PAPER,
-    SCISSORS
-}
-
 public class Main {
     public static void main(String[] args) throws URISyntaxException {
         FileReader reader = new FileReader();
@@ -34,8 +22,6 @@ public class Main {
         Logger.log("Total score: " + totalScore);
         Logger.log("Total Second score: " + total2Score);
     }
-
-
 
     private static Types getOppositeType(Types opponent, char me) {
         if(opponent == Types.PAPER) {
@@ -65,7 +51,7 @@ public class Main {
         return  Types.ROCK;
     }
 
-    private static Types determineType(char res) throws RuntimeException {
+    private static Types determineType(char res) throws UnknownTypeException {
         if(res == 'X' || res == 'A') {
             return Types.ROCK;
         }
@@ -78,7 +64,7 @@ public class Main {
             return Types.SCISSORS;
         }
 
-        throw new RuntimeException("Unknown Type: " + res);
+        throw new UnknownTypeException(res);
     }
 
     private static ActionState determineActionState(Types opponent, Types me) {
