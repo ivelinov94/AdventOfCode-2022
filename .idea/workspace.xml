@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed2fcf1-c35e-4dc8-ba06-79921db98f53" name="Changes" comment="Advent of Code - Day3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/ActionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/UnknownTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day3/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wankish/day2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +49,7 @@
     "last_opened_file_path": "C:/Users/developsoft/Documents/java/AdventOfCode/src/main/java/com/wankish/day3",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -136,7 +130,7 @@
       <workItem from="1669969289831" duration="2078000" />
       <workItem from="1669974662955" duration="5218000" />
       <workItem from="1669980939288" duration="4435000" />
-      <workItem from="1669992253914" duration="11636000" />
+      <workItem from="1669992253914" duration="11737000" />
     </task>
     <task id="LOCAL-00001" summary="Advent of Code - Day1">
       <created>1669985935968</created>
@@ -152,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669998963800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Advent of Code - Day3">
+      <created>1670072700672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670072700672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
