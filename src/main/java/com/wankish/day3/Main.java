@@ -25,7 +25,7 @@ public class Main {
             totalScore += getScore(first, second);
 
             if (i % 3 == 0) {
-                int current = i -1;
+                int current = i - 1;
                 total2Score += getScore2Task(dataset.get(current), dataset.get(current - 1), dataset.get(current - 2));
             }
         }
@@ -49,16 +49,16 @@ public class Main {
     }
 
     private static int getScore2Task(String s, String s1, String s2) {
-        for(int i =0; i < s.length(); i++) {
-            char currentChar = s.charAt(i);
-            int index = s1.indexOf(currentChar);
-            int index2 = s2.indexOf(currentChar);
-            if(index != -1 && index2 != -1) {
-                return getValueOf(currentChar);
+            for(int i =0; i < s.length(); i++) {
+                char currentChar = s.charAt(i);
+                int index = s1.indexOf(currentChar);
+                int index2 = s2.indexOf(currentChar);
+                if(index != -1 && index2 != -1) {
+                    return getValueOf(currentChar);
+                }
             }
-        }
 
-        return 0;
+            return 0;
     }
 
     private static int getScore(String first, String second) {

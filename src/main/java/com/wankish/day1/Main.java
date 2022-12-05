@@ -42,12 +42,12 @@ public class Main {
         return reader.readFile("day1.txt");
     }
 
-    public static Integer getTop3ResultsSum() throws URISyntaxException {
+    private static Integer getTop3ResultsSum() throws URISyntaxException {
         ArrayList<Integer> results = readFormatAndSortResults();
         return results.get(0) + results.get(1) + results.get(2);
     }
 
-    public static Integer getMaxResult() throws URISyntaxException {
+    private static Integer getMaxResult() throws URISyntaxException {
         ArrayList<Integer> results = readFormatAndSortResults();
         return results.get(0);
     }
